@@ -156,6 +156,9 @@ function App() {
             <a className="btn btn-primary desktop-only" href={ORDER_URL}>
               Order Online
             </a>
+            <a className="btn btn-primary desktop-only" href={BEYOND_MENU}>
+              Order Delivery
+            </a>
             <button
               className="menu-toggle"
               onClick={() => setOpen((v) => !v)}
